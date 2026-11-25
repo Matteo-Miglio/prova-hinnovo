@@ -7,12 +7,19 @@ ritorna un oggetto con il totale di somme eseguite.
 
 ## Come eseguire 
 comando: node script.js
+
 la console mostrerà: 
 
-i totali del test1 corrispondono                                il test1 ha passato il test, e tutti i campi erano corretti per formato
-al ciclo numero 0 i tipi di dato non sono corretti              il primo ciclo non ha soddisfatto i requisiti per essere sommato
-al ciclo numero 2 i tipi di dato non sono corretti              
-i totali del test2 corrispondono                                il test2 ha passato il test, ma 2 cicli non sono stati accettati
+```
+i totali del test1 corrispondono
+al ciclo numero 0 i tipi di dato non sono corretti
+al ciclo numero 2 i tipi di dato non sono corretti
+i totali del test2 corrispondono
+```
+
+- **i totali del test1 corrispondono**: il test1 ha passato il test, e tutti i campi erano corretti per formato.
+- **al ciclo numero 0 / 2 i tipi di dato non sono corretti**: quegli ordini non hanno soddisfatto i requisiti per essere sommati.
+- **i totali del test2 corrispondono**: il test2 ha passato il test, ma 2 cicli non sono stati accettati.
 
 ## Spiegazione
 - Decimali, utilizzato il Math.round(x*100)/100 per evitare l'errore di precisione causato da js
